@@ -1,4 +1,17 @@
 // write your code below!
-function doNothing(string) {
-  return string("Happy holidays!")
+
+function happyHolidays() {
+  return "Happy holidays!"
+}
+
+function happyHolidaysTo(firstName) {
+  return 'Happy holidays ${name}!'
+}
+
+function happyHolidayTo(holidays, firstName) {
+return `Happy ${holiday}, ${name}!`
+}
+
+function holidayCountdown(Number, holiday) {
+return `It's ${days} days until ${holiday}!`
 }
